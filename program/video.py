@@ -63,13 +63,13 @@ async def vplay(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="●↯التـحـكــم↯●", callback_data="cbmenu"),
+                InlineKeyboardButton(text="⌯ الـتـحـكــم ⌯", callback_data="cbmenu"),
                 InlineKeyboardButton(text="🗑اغــلاق●", callback_data="cls"),
               ],
-              [InlineKeyboardButton("⌯ ˹᧒ ᥲ️ ᥊ ᥉ ᥆ ꪀ. B ᥲ️ SᏂ A˼ 🍟🍹!", url=f"t.me/J_X_S4"),
-              InlineKeyboardButton("𝗦𝗢𝗨𝗥𝗖𝗘!", url=f"t.me/J_X_S3"),
+              [InlineKeyboardButton("👨‍💻 مطورين السورس", url=f"t.me/SOURCE_LORD1"),
+              InlineKeyboardButton("⌯ 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐨𝐫𝐝 ⌯", url=f"t.me/SOURCE_LORD"),
                 ],
-              [InlineKeyboardButton("🎧اضافه البوت اللي مجموعتك🎧", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),              
+              [InlineKeyboardButton("✚ اضفني  الي مجموعتك", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),              
             ]
         ]
     )
@@ -301,13 +301,13 @@ async def vstream(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="●↯التـحـكــم↯●", callback_data="cbmenu"),
+                InlineKeyboardButton(text="⌯ الـتـحـكــم ⌯", callback_data="cbmenu"),
                 InlineKeyboardButton(text="🗑اغــلاق●", callback_data="cls"),
               ],
-              [InlineKeyboardButton("⌯ ˹᧒ ᥲ️ ᥊ ᥉ ᥆ ꪀ. B ᥲ️ SᏂ A˼ 🍟🍹!", url=f"t.me/J_X_S4"),
-              InlineKeyboardButton("𝗦𝗢𝗨𝗥𝗖𝗘", url=f"t.me/J_X_S3"),
+              [InlineKeyboardButton("👨‍💻 مطورين السورس", url=f"t.me/SOURCE_LORD1"),
+              InlineKeyboardButton("⌯ 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐨𝐫𝐝 ⌯", url=f"t.me/SOURCE_LORD"),
               ],
-              [InlineKeyboardButton("🎧اضافه البوت اللي مجموعتك🎧", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),               
+              [InlineKeyboardButton("✚ اضفني  الي مجموعتك", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),               
             ]
         ]
     )

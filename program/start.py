@@ -54,40 +54,40 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **مرحبا عزيزي ↤ {message.from_user.mention()} !**\n
-━━━━━━━━🍁━━━━━━━━
+━━━━━━⌯ 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐨𝐫𝐝 ⌯━━━━━━
 🎻| **انا بوت تشغيل وتنزيل الاغاني وفديو كول **
 👮🏼‍♂️| ** اضفني مشرف في مجموعتك لأعمل **
 😎| ** اتبع مايلي لمعرفه كيفيه الاستخدام **
 ❓| ** اضغط علي ذر طريقه الاستخدام **
 🌐 ** الحساب المساعد  @{ASSISTANT_NAME} **
-◍صـاحـب السـورس◍ **[⌯ ˹᧒ ᥲ️ ᥊ ᥉ ᥆ ꪀ. B ᥲ️ SᏂ A˼ 🍿!](https://t.me/J_X_S4) **
-━━━━━━━━🍁━━━━━━━━
+👨‍💻 مطورين السورس *[⌯ 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐨𝐫𝐝 ⌯](https://t.me/SOURCE_LORD) **
+━━━━━━⌯ 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐨𝐫𝐝 ⌯━━━━━━
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "✅اضاف البوت لمجموعتك",
+                        "✚ اضفني  الي مجموعتك",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("<<طــريــقــة الاســتخــدام>>", callback_data="cbhowtouse")],
-                [InlineKeyboardButton("<<الاوامــر الكامله المعربــه>>", callback_data="cbvamp")],                 
+                [InlineKeyboardButton("🔎 كيفية استخدام الاوامر.", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("🔎الاوامر كامله معرب", callback_data="cbvamp")],                 
                 [
-                    InlineKeyboardButton("<<الاوامــــر>>", callback_data="cbcmds"),
-                    InlineKeyboardButton("<<الــمطــور>>", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("📌 الاوامر", callback_data="cbcmds"),
+                    InlineKeyboardButton("👤 مطور البوت", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "<<جــروب الــدعـم>>", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "📩 جروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "𝗦𝗢𝗨𝗥𝗖𝗘⌯🍟🍹", url=f"https://t.me/J_X_S9"
+                        "⌯ 𝐒𝐨𝐮𝐫𝐜𝐞 𝐋𝐨𝐫𝐝 ⌯", url=f"https://t.me/SOURCE_LORD"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "⌯ ˹᧒ ᥲ️ ᥊ ᥉ ᥆ ꪀ. B ᥲ️ SᏂ A˼ 🍟🍹", url="https://t.me/J_X_S4"
+                        "👨‍💻 مطورين السورس", url="https://t.me/SOURCE_LORD"
                     )
                 ],
             ]
@@ -108,21 +108,21 @@ async def alive(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⌯ ˹᧒ ᥲ️ ᥊ ᥉ ᥆ ꪀ. B ᥲ️ SᏂ A˼ 🍟🍹",
-                        url=f"https://t.me/J_X_S4",
+                        "👨‍💻 مطورين السورس",
+                        url=f"https://t.me/SOURCE_LORD",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🎙جــروب الــدعـم🎙", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "📩 جروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "𝐒𝐨𝐮𝐫𝐜𝐞", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🎧اضافه البوت اللي مجموعتك🎧", url="https://t.me/{BOT_USERNAME}?startgroup=true"
+                        "✚ اضفني  الي مجموعتك", url="https://t.me/{BOT_USERNAME}?startgroup=true"
                 ),
             ]
         ]
